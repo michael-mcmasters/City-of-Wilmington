@@ -3,7 +3,7 @@ import "./css/SideHoverbar.css";
 import { MdAttachMoney } from 'react-icons/md'
 import { GiWaterDrop } from 'react-icons/gi'
 import { IoIosPeople } from "react-icons/io";
-import { GrPlan } from "react-icons/gr";
+import { GiWhiteBook } from "react-icons/gi";
 import { BsFillTrashFill } from "react-icons/bs";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPaw } from "react-icons/fa";
@@ -36,7 +36,7 @@ const SideHoverBar = () => {
         </div>
 
         <div className="sb-item-container">
-          <GrPlan className="sb-icon" />
+          <GiWhiteBook className="sb-icon" />
           <div>
             Master Plans
           </div>
