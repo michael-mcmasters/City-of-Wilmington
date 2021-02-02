@@ -21,12 +21,12 @@ const ServiceCenter = () => {
         <Card img={img2} caption="City Departments" />
         <Card img={img3} caption="City Departments" />
       </div>
-      <div className="d-flex">
+      <div className="card-row">
         <Card img={img4} caption="City Departments" />
         <Card img={img5} caption="City Departments" />
         <Card img={img6} caption="City Departments" />
       </div>
-      <div className="d-flex">
+      <div className="card-row">
         <Card img={img7} caption="City Departments" />
         <Card img={img8} caption="City Departments" />
         <Card img={img9} caption="City Departments" />
