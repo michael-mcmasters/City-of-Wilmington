@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="main-color-theme">
       <Navbar></Navbar>
     </div>
   );
