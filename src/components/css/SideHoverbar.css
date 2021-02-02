@@ -2,20 +2,26 @@
   background-color: var(--light-green);
   position: fixed;
   top: 7vh;
-  width: 5em;
   height: 45em;
+  width: 5em;
   padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   text-align: center;
-  color: white;
+  color: var(--cream-white);
+  transition: 0.2s;
 }
 
 .sb-icon {
   color: var(--darkest-green);
-  /* font-size: 25px; */
   font-size: 2.1em;
+  cursor: pointer;
+}
+
+.sb-icon:hover {
+  color: var(--card-white);
 }
 
 @media (max-width: 900px) {
