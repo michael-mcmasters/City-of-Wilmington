@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <div className="container">
         <div class="d-flex space-btwn">
-          <img src={logo} alt="City's logo" className="logo" />
+          <img src={logo} alt="City's logo" className="logo left-screen-margin" />
           <input type="text"></input>
         </div>
         <div className="ml-auto mt-3 nav-items-container d-flex space-btwn">

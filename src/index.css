@@ -24,6 +24,11 @@ code {
   --darkest-green: rgb(12, 55, 55);
 }
 
+/******* Shared Classed *******/
+.left-screen-margin {
+  margin-left: 5.5em;
+}
+
 /******* Flex Box *******/
 .d-flex {
   display: flex;
