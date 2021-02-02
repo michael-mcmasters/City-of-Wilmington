@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import logo from "../images/cityofeayetteville.png";
 import "./css/Navbar.css";
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <div className="container">
         <div class="d-flex space-btwn">
-          <span>Icon</span>
+          <img src={logo} alt="City's logo" className="logo" />
           <input type="text"></input>
         </div>
         <div className="ml-auto mt-3 nav-items-container d-flex space-btwn">
@@ -23,19 +23,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// const Container = styled.div`
-//   background-color: red;
-//   padding: 2rem;
-// `;
-
-// const SearchBar = styled.div`
-
-// `;
-
-// const Temp = styled.div`
-//   background-color: red;
-//   &:hover {
-//     background-color: blue;
-//   }
-// `;

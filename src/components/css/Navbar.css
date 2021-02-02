@@ -3,6 +3,10 @@
   padding: 2em;
 }
 
+.logo {
+  margin-left: 5.5em;
+}
+
 .nav-items-container {
   width: 36em;
   font-size: 19px;
