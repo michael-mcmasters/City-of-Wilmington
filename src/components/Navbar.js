@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="container">
-        <div class="d-flex space-btwn">
+        <div class="top-row">
           <img src={logo} alt="City's logo" className="logo left-screen-margin" />
           <input type="text" placeholder="Search..."></input>
         </div>

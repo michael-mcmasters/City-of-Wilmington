@@ -3,6 +3,11 @@
   padding: 2em;
 }
 
+.top-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   cursor: pointer;
 }
@@ -41,9 +46,12 @@ input::placeholder {
 }
 
 @media (max-width: 650px) {
-  .container {
-    padding-left: 0em;
-    padding-right: 0em;
+  .top-row {
+    display: initial;
+  }
+
+  input {
+    width: fill;
   }
 
   .nav-items-container {
