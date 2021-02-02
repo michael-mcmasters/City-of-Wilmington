@@ -10,10 +10,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+/******* Flex Box *******/
 .d-flex {
   display: flex;
 }
 
 .space-btwn {
   justify-content: space-between;
+}
+
+/******* Margin *******/
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+.mt-2 {
+  margin-top: 2em;
+}
+.mt-3 {
+  margin-top: 3em;
+}
+
+/******* Size *******/
+.fit-content {
+  width: fit-content;
 }

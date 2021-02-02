@@ -10,9 +10,12 @@ const Navbar = () => {
           <span>Icon</span>
           <input type="text"></input>
         </div>
-        <div className="ml-auto">
-          <span>Government</span>
-          <span>Community</span>
+        <div className="ml-auto mt-3 nav-items-container d-flex space-btwn">
+          <div>GOVERNMENT</div>
+          <div>COMMUNITY</div>
+          <div>DOING BUSINESS</div>
+          <div>SERVICES</div>
+          <div>HOW DO I...</div>
         </div>
       </div>
     </div>
