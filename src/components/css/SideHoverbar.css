@@ -1,6 +1,6 @@
 .sb-container {
   background-color: blue;
-  position: sticky;
+  position: fixed;
   top: 50vh;
   width: fit-content;
 }
