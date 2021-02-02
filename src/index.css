@@ -29,6 +29,11 @@ code {
 }
 
 /******* Margin *******/
+.mx-auto {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }

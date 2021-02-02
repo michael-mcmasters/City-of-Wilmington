@@ -13,38 +13,63 @@ const SideHoverBar = () => {
   return (
     <>
       <div className="sb-container">
-        <MdAttachMoney className="sb-icon" />
+
         <div>
-          Make a Payment
-      </div>
-        <GiWaterDrop className="sb-icon" />
+          <MdAttachMoney className="sb-icon" />
+          <div>
+            Make a Payment
+          </div>
+        </div>
+
         <div>
-          Utilities
-      </div>
-        <IoIosPeople className="sb-icon" />
+          <GiWaterDrop className="sb-icon" />
+          <div>
+            Utilities
+          </div>
+        </div>
+
         <div>
-          Jobs &amp; Careers
-      </div>
-        <GrPlan className="sb-icon" />
+          <IoIosPeople className="sb-icon" />
+          <div>
+            Jobs &amp; Careers
+          </div>
+        </div>
+
         <div>
-          Master Plans
-      </div>
-        <BsFillTrashFill className="sb-icon" />
+          <GrPlan className="sb-icon" />
+          <div>
+            Master Plans
+          </div>
+        </div>
+
         <div>
-          Trash &amp; Recycling
-      </div>
-        <FaMapMarkedAlt className="sb-icon" />
+          <BsFillTrashFill className="sb-icon" />
+          <div>
+            Trash &amp; Recycling
+          </div>
+        </div>
+
         <div>
-          GIS Maps
-      </div>
-        <FaPaw className="sb-icon" />
+          <FaMapMarkedAlt className="sb-icon" />
+          <div>
+            GIS Maps
+          </div>
+        </div>
+
         <div>
-          Animal Services
-      </div>
-        <GiPineTree className="sb-icon" />
+          <FaPaw className="sb-icon" />
+          <div>
+            Animal Services
+          </div>
+        </div>
+
         <div>
-          Parks and Recreation
-      </div>
+          <GiPineTree className="sb-icon" />
+          <div>
+            Parks and Recreation
+          </div>
+        </div>
+
       </div>
     </>
   );
