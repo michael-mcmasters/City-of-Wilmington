@@ -13,35 +13,35 @@ const SideHoverBar = () => {
   return (
     <>
       <div className="sb-container">
-        <MdAttachMoney />
+        <MdAttachMoney className="sb-icon" />
         <div>
           Make a Payment
       </div>
-        <GiWaterDrop />
+        <GiWaterDrop className="sb-icon" />
         <div>
           Utilities
       </div>
-        <IoIosPeople />
+        <IoIosPeople className="sb-icon" />
         <div>
           Jobs &amp; Careers
       </div>
-        <GrPlan />
+        <GrPlan className="sb-icon" />
         <div>
           Master Plans
       </div>
-        <BsFillTrashFill />
+        <BsFillTrashFill className="sb-icon" />
         <div>
           Trash &amp; Recycling
       </div>
-        <FaMapMarkedAlt />
+        <FaMapMarkedAlt className="sb-icon" />
         <div>
           GIS Maps
       </div>
-        <FaPaw />
+        <FaPaw className="sb-icon" />
         <div>
           Animal Services
       </div>
-        <GiPineTree />
+        <GiPineTree className="sb-icon" />
         <div>
           Parks and Recreation
       </div>
