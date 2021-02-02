@@ -1,6 +1,7 @@
 .container {
   background-color: var(--brown);
   padding: 2em;
+  padding-left: 0;
 }
 
 .top-row {
@@ -55,6 +56,6 @@ input::placeholder {
   }
 
   .nav-items-container {
-    font-size: 12px;
+    font-size: 12.5px;
   }
 }

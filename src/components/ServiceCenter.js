@@ -4,7 +4,7 @@ import "./css/ServiceCenter.css";
 
 const ServiceCenter = () => {
   return (
-    <div className="left-screen-margin text-center">
+    <div className="edge-screen-margin text-center">
       Service Center
       <div className="card-row">
         <Card />
