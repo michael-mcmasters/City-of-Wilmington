@@ -3,7 +3,7 @@ import React from 'react';
 const ServiceCenter = () => {
   return (
     <div>
-      hello world
+      Service Center
     </div>
   );
 };
