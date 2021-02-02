@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="main-color-theme">
       <Navbar></Navbar>
-      <img src={cityImg} alt="fdsa" />
+      <div className="image-container">
+        <img src={cityImg} alt="A tree on Davis Island overlooking the water" />
+      </div>
     </div>
   );
 }
