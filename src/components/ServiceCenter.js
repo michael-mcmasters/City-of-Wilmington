@@ -18,18 +18,18 @@ const ServiceCenter = () => {
       Service Center
       <div className="card-row">
         <Card img={img1} caption="City Departments" />
-        <Card img={img2} caption="City Departments" />
-        <Card img={img3} caption="City Departments" />
+        <Card img={img2} caption="Board, Committees &amp; Commissions" />
+        <Card img={img3} caption="Participate in Public Meetings" />
       </div>
       <div className="card-row">
-        <Card img={img4} caption="City Departments" />
-        <Card img={img5} caption="City Departments" />
-        <Card img={img6} caption="City Departments" />
+        <Card img={img4} caption="Alerts and Notifications" />
+        <Card img={img5} caption="Rent a Bicycle" />
+        <Card img={img6} caption="Road Lanes and Closures" />
       </div>
       <div className="card-row">
-        <Card img={img7} caption="City Departments" />
-        <Card img={img8} caption="City Departments" />
-        <Card img={img9} caption="City Departments" />
+        <Card img={img7} caption="City Code" />
+        <Card img={img8} caption="Media Room" />
+        <Card img={img9} caption="Your Tax Dollars at Work" />
       </div>
     </div>
   );
