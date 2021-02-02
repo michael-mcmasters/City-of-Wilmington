@@ -14,6 +14,18 @@ function App() {
         <img src={cityImg} alt="A tree on Davis Island overlooking the water" />
       </div>
       <ServiceCenter />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

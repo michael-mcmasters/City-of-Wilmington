@@ -45,6 +45,10 @@ code {
   justify-content: space-between;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /******* Margin *******/
 .mx-auto {
   margin-left: 0rem;
@@ -72,4 +76,8 @@ code {
 /******* Size *******/
 .fit-content {
   width: fit-content;
+}
+
+.w-fill {
+  width: fill;
 }
