@@ -14,56 +14,56 @@ const SideHoverBar = () => {
     <>
       <div className="sb-container">
 
-        <div>
+        <div className="sb-item-container">
           <MdAttachMoney className="sb-icon" />
           <div>
             Make a Payment
           </div>
         </div>
 
-        <div>
+        <div className="sb-item-container">
           <GiWaterDrop className="sb-icon" />
           <div>
             Utilities
           </div>
         </div>
 
-        <div>
+        <div className="sb-item-container">
           <IoIosPeople className="sb-icon" />
           <div>
             Jobs &amp; Careers
           </div>
         </div>
 
-        <div>
+        <div className="sb-item-container">
           <GrPlan className="sb-icon" />
           <div>
             Master Plans
           </div>
         </div>
 
-        <div>
+        <div className="sb-item-container">
           <BsFillTrashFill className="sb-icon" />
           <div>
             Trash &amp; Recycling
           </div>
         </div>
 
-        <div>
+        <div className="sb-item-container">
           <FaMapMarkedAlt className="sb-icon" />
           <div>
             GIS Maps
           </div>
         </div>
 
-        <div>
+        <div className="sb-item-container">
           <FaPaw className="sb-icon" />
           <div>
             Animal Services
           </div>
         </div>
 
-        <div>
+        <div className="sb-item-container">
           <GiPineTree className="sb-icon" />
           <div>
             Parks and Recreation
