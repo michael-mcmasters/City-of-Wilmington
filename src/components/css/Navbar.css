@@ -1,7 +1,6 @@
 .container {
   background-color: var(--brown);
-  padding: 2em;
-  padding-left: 0;
+  padding: 0 2em 2em 0;
 }
 
 .top-row {
@@ -49,6 +48,10 @@ input::placeholder {
 @media (max-width: 650px) {
   .top-row {
     display: initial;
+  }
+
+  .logo {
+    margin-left: 0 auto;
   }
 
   input {
