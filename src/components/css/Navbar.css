@@ -5,22 +5,28 @@
 
 .nav-items-container {
   width: 36em;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 @media (max-width: 900px) {
+  .container {
+    padding: 1em;
+  }
+
   .nav-items-container {
+    font-size: 16px;
     width: auto;
   }
 }
 
-@media (max-width: 700px) {
-  .nav-items-container :nth-child(4) {
-    display: none;
+@media (max-width: 650px) {
+  .container {
+    padding-left: 0em;
+    padding-right: 0em;
   }
 
-  .nav-items-container :last-child {
-    display: none;
+  .nav-items-container {
+    font-size: 12px;
   }
 }
