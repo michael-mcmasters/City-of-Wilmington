@@ -5,6 +5,8 @@
 
 .nav-items-container {
   width: 35em;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 @media (max-width: 900px) {
@@ -13,7 +15,11 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 675px) {
+  .nav-items-container :nth-child(4) {
+    display: none;
+  }
+
   .nav-items-container :last-child {
     display: none;
   }
