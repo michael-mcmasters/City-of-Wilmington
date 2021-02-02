@@ -7,6 +7,22 @@
   cursor: pointer;
 }
 
+input {
+  align-self: center;
+  border: none;
+  outline: 4px solid var(--dark-green);
+
+  /* Edits placeholder text and user inputted text */
+  font-size: 17px;
+  padding: 1em;
+  font-weight: bold;
+  color: var(--darkest-green);
+}
+
+input::placeholder {
+  color: var(--darkest-green);
+}
+
 .nav-items-container {
   width: 36em;
   font-size: 19px;
