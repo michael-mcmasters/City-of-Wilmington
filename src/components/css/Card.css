@@ -3,3 +3,8 @@
   border: 1px solid yellow;
   width: fill;
 }
+
+.card-img {
+  width: 100px;
+  height: 100px;
+}
