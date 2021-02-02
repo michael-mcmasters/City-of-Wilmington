@@ -8,6 +8,8 @@ body {
   font-weight: 400;
   color: #474340;
   line-height: 1.4;
+
+  margin: 0;
 }
 
 code {
@@ -39,6 +41,10 @@ code {
 
 .ml-auto {
   margin-left: auto;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 .mt-1 {
