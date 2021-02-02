@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <div className="container">
         <div class="top-row">
-          <img src={logo} alt="City's logo" className="logo left-screen-margin" />
+          <img src={logo} alt="City's logo" className="logo edge-screen-margin" />
           <input type="text" placeholder="Search..."></input>
         </div>
         <div className="ml-auto mt-3 nav-items-container d-flex space-btwn">

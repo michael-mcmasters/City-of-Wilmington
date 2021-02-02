@@ -26,16 +26,6 @@ code {
 
 /******* Shared Classed *******/
 
-/* Move elements right when hover side bar is active. Get rid of margin when sidebar disappears. */
-.left-screen-margin {
-  margin-left: 7.5em;
-}
-@media (max-width: 900px) {
-  .left-screen-margin {
-    margin-left: 0;
-  }
-}
-
 /* Puts margin around div and edge of screen. */
 /* Add additional left margin if left sidebar is active */
 .edge-screen-margin {
