@@ -6,3 +6,15 @@
 .nav-items-container {
   width: 35em;
 }
+
+@media (max-width: 900px) {
+  .nav-items-container {
+    width: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-items-container :last-child {
+    display: none;
+  }
+}
