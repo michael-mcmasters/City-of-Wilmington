@@ -15,5 +15,11 @@
 .sb-icon {
   color: var(--darkest-green);
   /* font-size: 25px; */
-  font-size: 2.3em;
+  font-size: 2.1em;
+}
+
+@media (max-width: 900px) {
+  .sb-container {
+    display: none;
+  }
 }
