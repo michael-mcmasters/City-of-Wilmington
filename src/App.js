@@ -7,11 +7,11 @@ import './App.css';
 function App() {
   return (
     <div className="main-color-theme">
+      <SideHoverbar />
       <Navbar />
       <div className="image-container">
         <img src={cityImg} alt="A tree on Davis Island overlooking the water" />
       </div>
-      <SideHoverbar />
     </div>
   );
 }

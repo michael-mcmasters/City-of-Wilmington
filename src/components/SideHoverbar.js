@@ -1,33 +1,36 @@
 import React from 'react';
+import "./css/SideHoverbar.css";
 
 const SideHoverBar = () => {
   return (
-    <div>
-      <div>
-        Make a Payment
+    <>
+      <div className="sb-container">
+        <div>
+          Make a Payment
       </div>
-      <div>
-        Utilities
+        <div>
+          Utilities
       </div>
-      <div>
-        Jobs &amp; Careers
+        <div>
+          Jobs &amp; Careers
       </div>
-      <div>
-        Master Plans
+        <div>
+          Master Plans
       </div>
-      <div>
-        Trash &amp; Recycling
+        <div>
+          Trash &amp; Recycling
       </div>
-      <div>
-        GIS Maps
+        <div>
+          GIS Maps
       </div>
-      <div>
-        Animal Services
+        <div>
+          Animal Services
       </div>
-      <div>
-        Parks and Recreation
+        <div>
+          Parks and Recreation
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 
