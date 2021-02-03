@@ -39,7 +39,8 @@ input::placeholder {
 }
 
 .nav-item-container > div:hover {
-  background-color: red;
+  cursor: pointer;
+  background-color: rgb(223, 149, 92);
 }
 
 @media (max-width: 1000px) {
