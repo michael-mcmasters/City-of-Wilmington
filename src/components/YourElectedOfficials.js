@@ -50,19 +50,19 @@ const YourElectedOfficials = () => {
       </div>
     </>
   }
-  else if (window.innerWidth > 800 && window.innerWidth < 1030) {
+  else if (window.innerWidth > 800) {
     layout = <>
-      <div className="d-flex space-center">
+      <div className="d-flex space-even">
         {getAvatar(0)}
         {getAvatar(1)}
         {getAvatar(2)}
       </div>
-      <div className="d-flex space-center">
+      <div className="d-flex space-even">
         {getAvatar(0)}
         {getAvatar(1)}
         {getAvatar(2)}
       </div>
-      <div className="d-flex space-center">
+      <div className="d-flex space-even">
         {getAvatar(0)}
         {getAvatar(1)}
         {getAvatar(2)}
@@ -92,7 +92,7 @@ const YourElectedOfficials = () => {
   }
 
   return (
-    <div className="mt-3 edge-screen-margin text-center elected-officials-container">
+    <div className="mt-3 pt-1 edge-screen-margin text-center elected-officials-container">
       <h2 className="service-center-txt">Your Elected Officials</h2>
       {layout}
     </div>

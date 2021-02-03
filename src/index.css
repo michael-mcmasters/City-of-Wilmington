@@ -84,6 +84,18 @@ code {
   margin-top: 3em;
 }
 
+/******* Padding *******/
+
+.pt-1 {
+  padding-top: 1em;
+}
+.pt-2 {
+  padding-top: 2em;
+}
+.pt-3 {
+  padding-top: 3em;
+}
+
 /******* Size *******/
 .fit-content {
   width: fit-content;
