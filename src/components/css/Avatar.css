@@ -18,3 +18,10 @@
   font-size: 1.2em;
   color: var(--dark-green);
 }
+
+@media (max-width: 1225px) {
+  .avatar-img {
+    width: 150px;
+    height: 150px;
+  }
+}

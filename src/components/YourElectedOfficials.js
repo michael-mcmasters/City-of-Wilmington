@@ -1,6 +1,7 @@
 import React from 'react';
 import Avatar from "./Avatar";
 import img from "../images/card-images/20160921_161617.jpg";
+import "./css/YourElectedOfficials.css";
 
 const YourElectedOfficials = () => {
   const data = getElectedOfficialsData();
