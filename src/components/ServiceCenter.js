@@ -15,17 +15,17 @@ const ServiceCenter = () => {
   return (
     <div className="mt-3 edge-screen-margin text-center">
       <h2>Service Center</h2>
-      <div className="card-row">
+      <div className="d-flex space-even">
         <Card img={img1} caption="City Departments" />
         <Card img={img2} caption="Board, Committees &amp; Commissions" />
         <Card img={img3} caption="Participate in Public Meetings" />
       </div>
-      <div className="card-row">
+      <div className="d-flex space-even">
         <Card img={img4} caption="Alerts and Notifications" />
         <Card img={img5} caption="Rent a Bicycle" />
         <Card img={img6} caption="Road Lanes and Closures" />
       </div>
-      <div className="card-row">
+      <div className="d-flex space-even">
         <Card img={img7} caption="City Code" />
         <Card img={img8} caption="Media Room" />
         <Card img={img9} caption="Your Tax Dollars at Work" />

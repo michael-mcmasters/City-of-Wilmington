@@ -48,6 +48,10 @@ code {
   justify-content: space-between;
 }
 
+.space-even {
+  justify-content: space-evenly;
+}
+
 .text-center {
   text-align: center;
 }
