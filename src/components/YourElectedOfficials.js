@@ -19,8 +19,18 @@ const YourElectedOfficials = () => {
       <h2 className="service-center-txt">Your Elected Officials</h2>
       <div className="d-flex space-even">
         {getCard(0)}
-        {getCard(0)}
-        {getCard(0)}
+        {getCard(1)}
+        {getCard(2)}
+      </div>
+      <div className="d-flex space-even">
+        {getCard(3)}
+        {getCard(4)}
+        {getCard(5)}
+      </div>
+      <div className="d-flex space-even">
+        {getCard(6)}
+        {getCard(7)}
+        {getCard(8)}
       </div>
     </div>
   );
@@ -37,68 +47,62 @@ const getElectedOfficialsData = () => {
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "Sonia Gutierrez",
+      title: "City Council, Ward 1",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "D'Andre Jones",
+      title: "City Council",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "Matthew Petty",
+      title: "City Council",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "Sloan Scroggin",
+      title: "City Council",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "Sarah Bunch",
+      title: "City Council",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "Teresa Turk",
+      title: "City Council",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "Holly Hertzberg",
+      title: "City Council",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "Kara Paxton",
+      title: "City Clerk",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "William Storey",
+      title: "District Court Judge",
     },
     {
       image: "",
       altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
-    },
-    {
-      image: "",
-      altTxt: "",
-      person: "Lioneld Jordan",
-      title: "Mayor",
+      person: "Kit Williams",
+      title: "City Attorney",
     },
   ]
 }
