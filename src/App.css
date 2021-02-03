@@ -1,5 +1,11 @@
 .image-container {
-  height: 750px;
+  height: 900px;
+}
+
+.image-container img {
+  max-height: 100%;
+  max-width: 100%;
+  width: stretch;
 }
 
 @media (max-width: 750px) {
@@ -12,12 +18,6 @@
   .image-container {
     margin-bottom: -20em;
   }
-}
-
-.image-container img {
-  max-height: 100%;
-  max-width: 100%;
-  width: stretch;
 }
 
 .elected-officials-bg-color {
