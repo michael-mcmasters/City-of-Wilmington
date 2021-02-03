@@ -36,6 +36,7 @@ input::placeholder {
 
 .nav-item-container > div {
   padding: 1em 0.3em;
+  transition: 0.2s;
 }
 
 .nav-item-container > div:hover {

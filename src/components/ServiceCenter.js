@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from "./Card.js";
 import "./css/ServiceCenter.css";
-// import img1 from "";
 import img1 from "../images/card-images/20160430_161444.jpg"
 import img2 from "../images/card-images/20160430_183039_2.jpg"
 import img3 from "../images/card-images/20160501_173745.jpg"
