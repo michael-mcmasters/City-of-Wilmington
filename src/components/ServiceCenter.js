@@ -15,7 +15,7 @@ import img9 from "../images/card-images/20160430_161444.jpg"
 const ServiceCenter = () => {
   return (
     <div className="edge-screen-margin text-center">
-      Service Center
+      <h2 className="service-center-txt">Service Center</h2>
       <div className="card-row">
         <Card img={img1} caption="City Departments" />
         <Card img={img2} caption="Board, Committees &amp; Commissions" />
