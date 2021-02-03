@@ -15,7 +15,9 @@ function App() {
         <img src={cityImg} alt="A tree on Davis Island overlooking the water" />
       </div>
       <ServiceCenter />
-      <YourElectedOfficials />
+      <div className="elected-officials-bg-color">
+        <YourElectedOfficials />
+      </div>
       <br />
       <br />
       <br />

@@ -6,7 +6,7 @@ const YourElectedOfficials = () => {
   const data = getElectedOfficialsData();
 
   // Using this instead of map so that we can control what rows the cards are displayed in.
-  const getCard = (i) => {
+  const getAvatar = (i) => {
     return <Avatar
       image={data[i].image}
       altTxt={data[i].altTxt}
@@ -16,27 +16,27 @@ const YourElectedOfficials = () => {
   }
 
   return (
-    <div className="mt-3 edge-screen-margin text-center">
+    <div className="mt-3 edge-screen-margin text-center elected-officials-container">
       <h2 className="service-center-txt">Your Elected Officials</h2>
       <div className="d-flex space-center">
-        {getCard(0)}
-        {getCard(1)}
-        {getCard(2)}
-        {getCard(3)}
+        {getAvatar(0)}
+        {getAvatar(1)}
+        {getAvatar(2)}
+        {getAvatar(3)}
       </div>
       <div className="d-flex space-center">
-        {getCard(3)}
+        {getAvatar(3)}
       </div>
       <div className="d-flex space-center">
-        {getCard(6)}
-        {getCard(7)}
-        {getCard(8)}
-        {getCard(8)}
+        {getAvatar(6)}
+        {getAvatar(7)}
+        {getAvatar(8)}
+        {getAvatar(8)}
       </div>
       <div className="d-flex space-center">
-        {getCard(6)}
-        {getCard(7)}
-        {getCard(8)}
+        {getAvatar(6)}
+        {getAvatar(7)}
+        {getAvatar(8)}
       </div>
     </div>
   );

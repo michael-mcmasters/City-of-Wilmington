@@ -9,3 +9,12 @@
   object-fit: cover;
   border-radius: 9999px;
 }
+
+.name {
+  font-size: 1.2em;
+}
+
+.title {
+  font-size: 1.2em;
+  color: var(--dark-green);
+}

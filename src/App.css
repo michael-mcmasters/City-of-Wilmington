@@ -19,3 +19,8 @@
   max-width: 100%;
   width: stretch;
 }
+
+.elected-officials-bg-color {
+  /* background-color: rgb(71, 67, 64); */
+  background-color: rgb(252, 185, 134);
+}
