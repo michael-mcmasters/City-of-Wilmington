@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import "./css/YourElectedOfficials.css";
 import Avatar from "./Avatar";
 import img1 from "../images/avatar-images/050118-Purzycki-Portaits-Crop-SS-35-226x300.jpg";
 import img2 from "../images/avatar-images/070218-WIL-Regulator-City-Council-Meeting-SS-20-300x200.jpg";
@@ -13,7 +14,6 @@ import img10 from "../images/avatar-images/123120-Councilwomen-Welsh-Portraits-C
 import img11 from "../images/avatar-images/121520-Council-Yolanda-McCoy-crop-SS-352-235x300 (1).jpg";
 import img12 from "../images/avatar-images/122720-Council-Nathan-Field-crop-SS-15-216x300.jpg";
 import img13 from "../images/avatar-images/122720-Council-Nathan-Field-crop-SS-15-216x300.jpg";
-import "./css/YourElectedOfficials.css";
 
 const YourElectedOfficials = () => {
   const data = getElectedOfficialsData();
@@ -79,6 +79,11 @@ const YourElectedOfficials = () => {
         {getAvatar(7)}
         {getAvatar(8)}
       </div>
+      <div className="d-flex space-even">
+        {getAvatar(9)}
+        {getAvatar(10)}
+        {getAvatar(11)}
+      </div>
     </>
   }
 
@@ -99,6 +104,14 @@ const YourElectedOfficials = () => {
       <div className="d-flex space-even">
         {getAvatar(6)}
         {getAvatar(7)}
+      </div>
+      <div className="d-flex space-even">
+        {getAvatar(8)}
+        {getAvatar(9)}
+      </div>
+      <div className="d-flex space-even">
+        {getAvatar(10)}
+        {getAvatar(11)}
       </div>
     </>
   }
