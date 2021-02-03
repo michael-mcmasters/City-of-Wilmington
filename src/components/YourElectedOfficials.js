@@ -35,16 +35,16 @@ const YourElectedOfficials = () => {
         {getAvatar(3)}
       </div>
       <div className="d-flex space-center">
-        {getAvatar(3)}
+        {getAvatar(4)}
       </div>
       <div className="d-flex space-center">
+        {getAvatar(5)}
         {getAvatar(6)}
         {getAvatar(7)}
         {getAvatar(8)}
-        {getAvatar(8)}
       </div>
       <div className="d-flex space-center">
-        {getAvatar(6)}
+        {getAvatar(9)}
         {getAvatar(7)}
         {getAvatar(8)}
       </div>
@@ -58,14 +58,14 @@ const YourElectedOfficials = () => {
         {getAvatar(2)}
       </div>
       <div className="d-flex space-even">
-        {getAvatar(0)}
-        {getAvatar(1)}
-        {getAvatar(2)}
+        {getAvatar(3)}
+        {getAvatar(4)}
+        {getAvatar(5)}
       </div>
       <div className="d-flex space-even">
-        {getAvatar(0)}
-        {getAvatar(1)}
-        {getAvatar(2)}
+        {getAvatar(6)}
+        {getAvatar(7)}
+        {getAvatar(8)}
       </div>
     </>
   }
@@ -77,16 +77,16 @@ const YourElectedOfficials = () => {
         {getAvatar(1)}
       </div>
       <div className="d-flex space-even">
-        {getAvatar(0)}
-        {getAvatar(1)}
+        {getAvatar(2)}
+        {getAvatar(3)}
       </div>
       <div className="d-flex space-even">
-        {getAvatar(0)}
-        {getAvatar(1)}
+        {getAvatar(4)}
+        {getAvatar(5)}
       </div>
       <div className="d-flex space-even">
-        {getAvatar(0)}
-        {getAvatar(1)}
+        {getAvatar(6)}
+        {getAvatar(7)}
       </div>
     </>
   }
