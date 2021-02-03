@@ -111,7 +111,7 @@ const getElectedOfficialsData = () => {
       image: img,
       altTxt: "",
       person: "Sonia Gutierrez",
-      title: "City Council, Ward 1",
+      title: "City Council",
     },
     {
       image: img,

@@ -1,6 +1,12 @@
 .main-container {
   margin: 2em;
   margin-top: 1em;
+  cursor: pointer;
+}
+
+.main-container .avatar-img:hover {
+  transition: 0.2s;
+  opacity: 0.6;
 }
 
 .avatar-img {
