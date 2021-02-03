@@ -5,7 +5,7 @@ import "./css/YourElectedOfficials.css";
 
 const YourElectedOfficials = () => {
   const data = getElectedOfficialsData();
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [, setWindowWidth] = useState(window.innerWidth);   // property is never used, but function is used to force component to re-render.
 
   // Re-render component every time window width changes.
   useEffect(() => {
@@ -13,7 +13,7 @@ const YourElectedOfficials = () => {
     return () => {
       window.removeEventListener('resize', () => setWindowWidth(window.innerWidth));
     }
-  }, [windowWidth])
+  }, [])
 
   // Using this instead of map so that we can control what rows the cards are displayed in.
   const getAvatar = (i) => {
@@ -26,7 +26,7 @@ const YourElectedOfficials = () => {
   }
 
   let layout;
-  if (windowWidth < 900) {
+  if (window.innerWidth > 1030) {
     layout = <>
       <div className="d-flex space-center">
         {getAvatar(0)}
@@ -49,25 +49,44 @@ const YourElectedOfficials = () => {
         {getAvatar(8)}
       </div>
     </>
-  } else {
+  }
+  else if (window.innerWidth > 800 && window.innerWidth < 1030) {
     layout = <>
       <div className="d-flex space-center">
+        {getAvatar(0)}
+        {getAvatar(1)}
         {getAvatar(2)}
-        {getAvatar(3)}
       </div>
       <div className="d-flex space-center">
-        {getAvatar(3)}
+        {getAvatar(0)}
+        {getAvatar(1)}
+        {getAvatar(2)}
       </div>
       <div className="d-flex space-center">
-        {getAvatar(6)}
-        {getAvatar(7)}
-        {getAvatar(8)}
-        {getAvatar(8)}
+        {getAvatar(0)}
+        {getAvatar(1)}
+        {getAvatar(2)}
       </div>
-      <div className="d-flex space-center">
-        {getAvatar(6)}
-        {getAvatar(7)}
-        {getAvatar(8)}
+    </>
+  }
+
+  else {
+    layout = <>
+      <div className="d-flex space-even">
+        {getAvatar(0)}
+        {getAvatar(1)}
+      </div>
+      <div className="d-flex space-even">
+        {getAvatar(0)}
+        {getAvatar(1)}
+      </div>
+      <div className="d-flex space-even">
+        {getAvatar(0)}
+        {getAvatar(1)}
+      </div>
+      <div className="d-flex space-even">
+        {getAvatar(0)}
+        {getAvatar(1)}
       </div>
     </>
   }
