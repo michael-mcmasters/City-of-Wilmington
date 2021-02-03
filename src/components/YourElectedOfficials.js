@@ -18,17 +18,22 @@ const YourElectedOfficials = () => {
   return (
     <div className="mt-3 edge-screen-margin text-center">
       <h2 className="service-center-txt">Your Elected Officials</h2>
-      <div className="d-flex space-even">
+      <div className="d-flex space-center">
         {getCard(0)}
         {getCard(1)}
         {getCard(2)}
-      </div>
-      <div className="d-flex space-even">
         {getCard(3)}
-        {getCard(4)}
-        {getCard(5)}
       </div>
-      <div className="d-flex space-even">
+      <div className="d-flex space-center">
+        {getCard(3)}
+      </div>
+      <div className="d-flex space-center">
+        {getCard(6)}
+        {getCard(7)}
+        {getCard(8)}
+        {getCard(8)}
+      </div>
+      <div className="d-flex space-center">
         {getCard(6)}
         {getCard(7)}
         {getCard(8)}
