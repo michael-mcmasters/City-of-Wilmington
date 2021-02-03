@@ -1,6 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Avatar from "./Avatar";
-import img from "../images/card-images/20160921_161617.jpg";
+import img1 from "../images/avatar-images/050118-Purzycki-Portaits-Crop-SS-35-226x300.jpg";
+import img2 from "../images/avatar-images/070218-WIL-Regulator-City-Council-Meeting-SS-20-300x200.jpg";
+import img3 from "../images/avatar-images/091720-DaWayne-Sims-crop-SS-05-238x300.jpg";
+import img4 from "../images/avatar-images/121420-Council-Bregetta-Fields-Crop-SS-41-2-227x300.jpg";
+import img5 from "../images/avatar-images/121420-Council-Linda-Gray-Crop-SS-14-233x300.jpg";
+import img6 from "../images/avatar-images/121520-Council-Zanthia-Oliver-crop-SS-18-229x300.jpg";
+import img7 from "../images/avatar-images/122220-Council-Harlee-crop-SS-12-242x300.jpg";
+import img8 from "../images/avatar-images/122220-Council-President-Elect-crop-SS-277-218x300.jpg";
+import img9 from "../images/avatar-images/M_Cabrera_2020-214x300.jpg";
+import img10 from "../images/avatar-images/123120-Councilwomen-Welsh-Portraits-Crop-SS-08-1-226x300.jpg";
+import img11 from "../images/avatar-images/121520-Council-Yolanda-McCoy-crop-SS-352-235x300 (1).jpg";
+import img12 from "../images/avatar-images/122720-Council-Nathan-Field-crop-SS-15-216x300.jpg";
+import img13 from "../images/avatar-images/122720-Council-Nathan-Field-crop-SS-15-216x300.jpg";
 import "./css/YourElectedOfficials.css";
 
 const YourElectedOfficials = () => {
@@ -45,8 +57,8 @@ const YourElectedOfficials = () => {
       </div>
       <div className="d-flex space-center">
         {getAvatar(9)}
-        {getAvatar(7)}
-        {getAvatar(8)}
+        {getAvatar(10)}
+        {getAvatar(11)}
       </div>
     </>
   }
@@ -102,67 +114,73 @@ const YourElectedOfficials = () => {
 const getElectedOfficialsData = () => {
   return [
     {
-      image: img,
+      image: img1,
       altTxt: "",
       person: "Lioneld Jordan",
       title: "Mayor",
     },
     {
-      image: img,
+      image: img2,
       altTxt: "",
       person: "Sonia Gutierrez",
       title: "City Council",
     },
     {
-      image: img,
+      image: img3,
       altTxt: "",
       person: "D'Andre Jones",
       title: "City Council",
     },
     {
-      image: img,
+      image: img4,
       altTxt: "",
       person: "Matthew Petty",
       title: "City Council",
     },
     {
-      image: img,
+      image: img5,
       altTxt: "",
       person: "Sloan Scroggin",
-      title: "City Council",
+      title: "District Court Judge",
     },
     {
-      image: img,
+      image: img6,
       altTxt: "",
       person: "Sarah Bunch",
       title: "City Council",
     },
     {
-      image: img,
+      image: img7,
       altTxt: "",
       person: "Teresa Turk",
       title: "City Council",
     },
     {
-      image: img,
+      image: img8,
       altTxt: "",
       person: "Holly Hertzberg",
       title: "City Council",
     },
     {
-      image: img,
+      image: img9,
       altTxt: "",
       person: "Kara Paxton",
       title: "City Clerk",
     },
     {
-      image: img,
+      image: img10,
       altTxt: "",
-      person: "William Storey",
-      title: "District Court Judge",
+      person: "Chris Beardsley",
+      title: "Disctrict Court Judge",
     },
     {
-      image: img,
+      image: img11,
+      altTxt: "",
+      person: "Kit Williams",
+      title: "City Attorney",
+    },
+    {
+      image: img12,
       altTxt: "",
       person: "Kit Williams",
       title: "City Attorney",
