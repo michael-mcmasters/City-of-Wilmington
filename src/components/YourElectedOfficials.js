@@ -1,5 +1,6 @@
 import React from 'react';
 import Avatar from "./Avatar";
+import img from "../images/card-images/20160921_161617.jpg";
 
 const YourElectedOfficials = () => {
   const data = getElectedOfficialsData();
@@ -39,67 +40,67 @@ const YourElectedOfficials = () => {
 const getElectedOfficialsData = () => {
   return [
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Lioneld Jordan",
       title: "Mayor",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Sonia Gutierrez",
       title: "City Council, Ward 1",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "D'Andre Jones",
       title: "City Council",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Matthew Petty",
       title: "City Council",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Sloan Scroggin",
       title: "City Council",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Sarah Bunch",
       title: "City Council",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Teresa Turk",
       title: "City Council",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Holly Hertzberg",
       title: "City Council",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Kara Paxton",
       title: "City Clerk",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "William Storey",
       title: "District Court Judge",
     },
     {
-      image: "",
+      image: img,
       altTxt: "",
       person: "Kit Williams",
       title: "City Attorney",
