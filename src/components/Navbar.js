@@ -10,12 +10,12 @@ const Navbar = () => {
           <img src={logo} alt="City's logo" className="logo edge-screen-margin" />
           <input type="text" placeholder="Search..."></input>
         </div>
-        <div className="ml-auto mt-3 nav-items-container d-flex space-btwn">
+        <div className="nav-item-container ml-auto mt-3 nav-items-container d-flex space-btwn">
           <div>GOVERNMENT</div>
           <div>COMMUNITY</div>
           <div>DOING BUSINESS</div>
           <div>SERVICES</div>
-          <div>HOW DO I...</div>
+          <div>HOW DO I</div>
         </div>
       </div>
     </div>

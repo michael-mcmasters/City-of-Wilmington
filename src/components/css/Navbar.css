@@ -1,6 +1,6 @@
 .container {
   background-color: var(--brown);
-  padding: 0 2em 2em 0;
+  padding: 0 2em 0 0;
 }
 
 .top-row {
@@ -29,14 +29,23 @@ input::placeholder {
 }
 
 .nav-items-container {
-  width: 36em;
+  width: 45em;
   font-size: 19px;
   font-weight: 500;
 }
 
-@media (max-width: 900px) {
+.nav-item-container > div {
+  padding: 1em 0.3em;
+}
+
+.nav-item-container > div:hover {
+  background-color: red;
+}
+
+@media (max-width: 1000px) {
   .container {
     padding: 1em;
+    padding-bottom: 0;
   }
 
   .nav-items-container {
