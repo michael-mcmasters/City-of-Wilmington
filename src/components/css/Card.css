@@ -4,10 +4,19 @@
   font-size: 19px;
   margin: 0.3em;
   width: fill;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.card-container:hover {
+  color: yellow;
+  box-shadow: 5px 10px 10px black;
+  transform: translate(-2%, -3%);
 }
 
 .card-img {
   max-height: 100%;
   max-width: 100%;
   width: stretch;
+  transition: 0.8s;
 }
