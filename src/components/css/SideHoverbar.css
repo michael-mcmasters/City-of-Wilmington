@@ -20,6 +20,7 @@
 .sb-icon {
   color: var(--darkest-green);
   font-size: 2.1em;
+  transition: 0.2s;
   cursor: pointer;
 }
 
