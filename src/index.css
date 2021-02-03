@@ -32,7 +32,7 @@ code {
   margin: 1em;
   margin-left: 7.5em;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
   .edge-screen-margin {
     margin: 1em;
     margin-left: 1em;

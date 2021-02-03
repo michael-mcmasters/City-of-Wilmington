@@ -43,7 +43,7 @@ input::placeholder {
   background-color: rgb(223, 149, 92);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
   .container {
     padding: 1em;
     padding-bottom: 0;
